@@ -13,6 +13,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="h-full bg-black">
+      <head>
+        <link rel="preconnect" href="https://api.fontshare.com" />
+        <link
+          rel="stylesheet"
+          href="https://api.fontshare.com/v2/css?f[]=clash-display@400,500,600,700&f[]=satoshi@400,500,700&display=swap"
+        />
+      </head>
       <body className="min-h-screen bg-black text-[#121212] antialiased overflow-x-hidden">
         {children}
       </body>
