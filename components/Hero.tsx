@@ -10,7 +10,7 @@ interface HeroProps {
 export default function Hero({ title = "Moah", className = "" }: HeroProps) {
   return (
     <section
-      className={`w-full flex-1 flex flex-col items-center justify-center relative select-none py-4 sm:py-6 md:py-8 ${className}`}
+      className={`w-full min-h-[68svh] sm:min-h-[74svh] flex flex-col items-center justify-center relative select-none py-8 sm:py-10 md:py-12 ${className}`}
       aria-label="Studio Brand Hero"
     >
       {/* Central Brand Typography */}
